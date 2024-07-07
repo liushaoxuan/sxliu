@@ -8,11 +8,27 @@
     tools:context=".MainActivity"
     android:gravity="center">
 
-    <com.example.shadowtest.shadow.CustomImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageview"
         android:layout_width="288dp"
         android:layout_height="180dp"
         android:src="@drawable/fengjing"
+        android:elevation="20dp"
+        android:translationZ="20dp"
+        android:translationX="5dp"
+        android:translationY="5dp"
+        app:ambientShadowColor="@color/teal_200"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageview2"
+        android:layout_width="288dp"
+        android:layout_height="180dp"
+        android:src="@drawable/fengjing"
+        android:elevation="20dp"
+        android:translationZ="20dp"
+        android:translationX="5dp"
+        android:translationY="5dp"
+        android:layout_marginTop="50dp"
         app:ambientShadowColor="@color/teal_200"/>
 
 </LinearLayout>
