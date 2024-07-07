@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShadowImageView">
+        <attr name="elevation" format="dimension|reference"/>
+        <attr name="translationZ" format="dimension|reference"/>
+        <attr name="ambientShadowColor" format="color"/>
+        <attr name="spotShadowColor" format="color"/>
+        <attr name="elevationShadowColor" format="color"/>
+    </declare-styleable>
+</resources>
